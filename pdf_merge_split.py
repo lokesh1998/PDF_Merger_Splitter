@@ -50,8 +50,8 @@ def split_files():
                 writer.write( new_file )
 
 
-btn1 = tk.Button( window, text='Browse', command=lambda: merge_files() )
-btn2 = tk.Button( window, text='Browse', command=lambda: split_files() )
+btn1 = tk.Button( window, text='Browse for Merging', command=lambda: merge_files() )
+btn2 = tk.Button( window, text='Browse for Split', command=lambda: split_files() )
 btn1.pack()
 btn2.pack()
 window.mainloop()
